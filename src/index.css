@@ -1,0 +1,38 @@
+@font-face {
+  font-family: sans-serif;
+  src: url(../src/assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: sans-serif;
+  src: url(../src/assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: sans-serif;
+  src: url(../src/assets/fonts/Roboto-Regular.ttf);
+}
+
+
+:root {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Roboto';
+}
